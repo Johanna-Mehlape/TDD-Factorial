@@ -1,2 +1,3 @@
-# TDD-Factorial
-A program that computes the factorial of a number.
+This is a project based on Test Driven Development(TDD). A function was created to find the factorial of a given integer but first before the function was created a there had to be a test written (unit test)prior to the actual function/program, which is basically the whole idea of TDD.
+
+What one should expect from the function is that, it is supposed to fail an empty input, it is also supposed to deal with non-numeric and negative inputs by giving an error message. For inputs 1 and 0 it should produce 1 as a result/factorial and for all other positive integers, it should also be able to produce the factorials of those numbers. The only challenge will be for larger numbers > 999, it won't be able to produce any output but a RuntimeError message.
